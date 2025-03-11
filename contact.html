@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact | Pixt Blog</title>
+
+        <!--==EXTERNAL CSS==-->
+        <link rel="stylesheet" href="static/css/style.css">
     </head>
     <body>
         <!--HEADER SECTION BEGINS-->
@@ -32,25 +35,35 @@
 
         <!--======MAIN BODY=====-->
         <main>
-           <form action="">
-
-            <div class="form-group">
-                <label for="#email">Email:</label>
-                <input type="email" name="email" id="email">
-            </div>
 
             
-            <div class="form-group">
-                <label for="#full-name">Full Name:</label>
-                <input type="text" name="full_name" id="full-name">
-            </div>
+           <form class="contact-form" action="">
 
-            <div class="form-group">
-                <label for="#phone">Phone:</label>
-                <input type="tel" name="phone" id="phone">
-            </div>
 
-            <button type="submit">submit</button>
+                <div style="">
+                    <h2 style="margin-bottom: 0;">Contact Page</h2>
+                </div>
+            
+                
+                <div>
+                    <div class="form-group">
+                        <label for="#email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+    
+                    
+                    <div class="form-group">
+                        <label for="#full-name">Full Name:</label>
+                        <input type="text" name="full_name" id="full-name">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="#phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+    
+                    <button class="btn" type="submit">submit</button>
+                </div>
            </form>
         </main>
         <!--======MAIN BODY END=====-->
