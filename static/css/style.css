@@ -1,0 +1,104 @@
+/*BODY*/
+
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    height: 100%; width: 100%; margin: 0; padding: 0px;
+}
+
+/*HEADER SECTION*/
+
+header nav{
+    display: grid; grid-template-columns: 15% 60% 25%; align-items: center;
+
+}
+
+header nav ul{
+    display: flex; justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    color: white;
+}
+.nav-link{
+    color: grey;
+}
+#nav-home-link{
+    color: black;
+}
+
+header, footer{
+    background-color: rgb(31, 31, 67); 
+    color: white; 
+    padding: 10px; 
+    margin: 0;
+}
+
+.product-content{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-image{
+    padding: 10px;
+}
+
+.product-image img{
+    object-fit: contain;
+    width: 100%;
+}
+
+
+/*CONTACT*/
+
+.contact-form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.form-group{
+    margin: 30px 2px;
+    display: grid;
+
+}
+
+.form-group label{
+}
+
+.form-group input{
+    min-height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    padding-left: 5px;
+    border-color: rgb(31, 31, 67);
+    outline-color: rgb(31, 31, 67);
+}
+
+.btn{
+    background-color: rgb(31, 31, 67);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
+    transition: background-color .8s linear;
+}
+
+/*FOOTER*/
+footer nav{
+    display: grid; grid-template-columns: 25% 25% 25% 25%; align-items: flex-start;
+}
